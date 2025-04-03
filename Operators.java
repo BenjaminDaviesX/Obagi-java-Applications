@@ -4,6 +4,15 @@ public class Operators{
 		int num1 = 19;   
 		int num2 = 5;
 		
+		
+		// compound assignment operators
+		// by adding the value of the 2 variables and updating num1
+		num1 += num2;
+		num1 *= num2;
+		
+		
+
+		
 	//Arithmetic Operator (+,*,-,/,%) used to perform basic mathematical calculation
 	// find sum of the above 
 	int sum = num1 + num2;
@@ -59,6 +68,7 @@ public class Operators{
 	System.out.printf("Is %d > %d && %d >= %d? %b%n", num1,num2,num1,num2, isAndOperator);
 	System.out.printf("Is %d == %d || %d >= %d? %b%n", num1,num2,num1,num2, isOrOperator);
 	System.out.printf("Is !(%d == %d || %d >= %d)? %b%n", num1,num2,num1,num2, isNotOperator);
+	System.out.printf("The sum of the number is: %d%n",sum);  
 	
 	
 	}
