@@ -4,7 +4,7 @@ public  class StaticMethodWithReturnType{
 
 		System.out.printf("The sum is %d%n",result);
 	}
-	public static int addition(){
+	public static int addition(){ // invoked by using the class name plus the method name
 		int num1 = 50;
 		int num2 = 17;
 		

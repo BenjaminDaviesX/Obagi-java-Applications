@@ -28,7 +28,7 @@ public  class BankingApp{
 		BankingApp bankapp = new BankingApp();
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Welcome to Opay Bank");
+		System.out.println("Welcome to Davaben Bank");
 		System.out.println("Enter 1 to Deposit");
 		System.out.println("Enter 2 to Withdraw");
 		System.out.println("Enter 3 to Check Balance");
