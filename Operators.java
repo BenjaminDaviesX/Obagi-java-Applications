@@ -32,7 +32,7 @@ public class Operators{
 	// RELATIONAL OPERATORS or COMPARISON (>,<,>=,<=,==,!=) IS USED TO COMPARE TWO VALUES OR VARIABLES
 	boolean isLessThan = num1 < num2; 
 	boolean isGreaterThan = num1 > num2;
-	boolean isGreaterThanOrEqualTo = num1 >= num2; // when you us or it returns true
+	boolean isGreaterThanOrEqualTo = num1 >= num2; // when you use (or) it returns true
     boolean isLessThanOrEqualTo = num1 <= num2;
 	boolean isEqualTo = num1 == num2;
 	boolean isNotEqualTo = num1 != num2;
